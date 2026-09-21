@@ -25,7 +25,7 @@ function Hero({features}) {
 
             <button
                 onClick={() => setAngka(angka + 10)}
-                className="bg-pink-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-pink-900 transition"
+                className="bg-black text-white px-8 py-3 rounded-full font-semibold hover:bg-gray-800 transition"
             >
                 Klik Button ({angka})
             </button>
